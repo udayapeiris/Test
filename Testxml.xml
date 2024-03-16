@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Test Suite-1" parallel="classes">
+	
+<listeners>
+<listener class-name="extentReportListner.TestNgListners"/>
+</listeners>
+
+	<test name="Test Case-1">
+		<classes>
+	
+			<class name="BookATest.assignment"/>
+			
+			
+		</classes>
+	</test>
+
+
+
+</suite>
